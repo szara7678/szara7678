@@ -7,7 +7,6 @@
 - **AddInEdu ROS2 부트캠프 (2025.03~06)**
   - ROS2 메시지 아키텍처 설계 및 통신 파이프라인 구축  
   - 실시간 MJPEG/RTSP 스트리밍 및 YOLO·OpenCV 객체 감지  
-  - AWS 자동화 인프라 구축 (EC2, S3, RDS)  
   - LLM 기반 배치 분석 파이프라인 개발  
   - GitHub Actions CI/CD 설계 및 운영  
   - [프로젝트 저장소](https://github.com/addinedu-roscamp-4th/roscamp-repo-2)
