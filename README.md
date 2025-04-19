@@ -1,8 +1,4 @@
-<h2 align="center">Hi, I'm SEONGWON JANG 👋</h2>
-
-<p align="center"><strong>I'm Robotics vision enthusiast</strong></p>
-<p align="center"><strong>Research interests in : Object Detection / Tracking, 3D Reconstruction... (still agonizing...) </strong></p>
-<br>
+<h2 align="center">Hi, I'm Insu Kim 👋</h2>
 
 ## 🔧 Technologies and tools 
 
