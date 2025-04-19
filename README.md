@@ -1,52 +1,56 @@
-<h2 align="center">Hi, I'm Insu Kim 👋</h2>
-<h4 align="center">AI & Robotics Developer | ROS2 Enthusiast | Cloud & Vision Automation Explorer</h4>
+<h2 align="center">👋 안녕하세요, AI & Robotics 개발자 김인수입니다.</h2>
+<h4 align="center">ROS2 기반 자율주행 및 비전 기술 전문가 | 클라우드 자동화 탐구자</h4>
 
 ---
 
-## 🔧 Technologies and Tools 
-
-### 🖥️ Languages
-<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/HTML5-E97109?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/DART-0175C2?style=for-the-badge&logo=dart&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
-
-### 🧭 OS
-<img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
-
-### 🛰️ Middleware
-<img src="https://img.shields.io/badge/ROS-000000?style=for-the-badge&logo=ROS&logoColor=white">
-
-### 🔩 Hardware
-<img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white">
-
-### 📚 Libraries & Frameworks
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white"> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/OpenCV-696969?style=for-the-badge&logo=OpenCV&logoColor=white"> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-
-### ☁️ Cloud & DevOps
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"> <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white"> <img src="https://img.shields.io/badge/AWS%20ELB-FF9900?style=for-the-badge&logo=awselasticloadbalancing&logoColor=white"> <img src="https://img.shields.io/badge/Amazon%20RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white"> <img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white"> <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">
-
-### ⚙️ Others
-<img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/Github Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-00BFFF?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"> <img src="https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white">
-
----
-
-## 🏆 Awards & Certificates
-
-## 📚 Education
-- **HUFS**: Japanese Language, Literature and Culture Major  
-- **HUFS**: World Art Culture Institute Major  
-
-## 🌍 Language Skills
-- Korean (Native)
-- Japanese (Advanced)
-- English (Intermediate)
-
-## 🚀 Activity 
+## 🚀 주요 활동
 - **애드인에듀 ROS2 자율주행로봇 44일 부트캠프 4기 (2025.03.31 ~ 2025.06.02)**
-
-## 💼 Internship
+  - ROS2 기반 통신 및 비전 기술 담당
 
 ---
 
-<h2> 💻 Github Activity </h2>
+## 🧩 주요 프로젝트
+- [타로 카드 게임 (웹 기반)](https://szara7678.github.io/TarotGame/)
+- [스도쿠 게임 (웹 기반)](https://szara7678.github.io/Sudoku-master/)
+- [덧셈 카드 게임 (학습용)](https://szara7678.github.io/PlusCardGame/)
+- [이치모찌 일본어 학습 앱 (모바일)](https://play.google.com/store/apps/details?id=com.szara7678.ichimozzi)
 
+---
+
+## 🔧 기술 스택
+- **언어**: Python, HTML5, Dart, JavaScript, C++
+- **미들웨어 및 하드웨어**: ROS2, Raspberry Pi
+- **라이브러리 및 프레임워크**: PyTorch, TensorFlow, OpenCV, Flask, FastAPI
+- **클라우드 및 DevOps**: AWS, Docker
+
+---
+
+## 📚 학력
+- 한국외국어대학교 일본언어문화 전공
+- 한국외국어대학교 세계문화예술경영 전공
+
+---
+
+## 🌍 언어 능력
+- 🇰🇷 한국어 (모국어)
+- 🇯🇵 일본어 (상급)
+- 🇺🇸 영어 (중급)
+
+---
+
+## 📬 연락처
+- 📧 이메일: gci.insu@gmail.com
+
+---
+
+## 🌐 영어 프로필 페이지
+👉 [English Profile Page](https://username.github.io)
+
+---
+
+## 💻 GitHub 활동
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=szara7678&show_icons=true&theme=tokyonight)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=szara7678&layout=compact&theme=tokyonight)
+
+![GitHub followers](https://img.shields.io/github/followers/szara7678?style=social)
+![Profile views](https://komarev.com/ghpvc/?username=szara7678)
