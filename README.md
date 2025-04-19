@@ -25,7 +25,7 @@
   
 ## 📚 Study
 
-## 🇺🇸 English Skills
+## Language Skills
 
 ## 🚣 Activity 
 
