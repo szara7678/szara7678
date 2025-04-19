@@ -24,6 +24,8 @@
 
   
 ## 📚 Study
+- **HUFS DEPARTMENT OF Japanese Language, Literature and Culture Major**<br>
+- **HUFS World Art Culture Institute Major**<br>
 
 ## Language Skills
 
