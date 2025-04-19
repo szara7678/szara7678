@@ -106,8 +106,8 @@
 
 ---
 
-## 🌐 영어 프로필 페이지
-👉 [English Profile Page](https://szara7678.github.io/portfolio/)  
+## 🌐 프로필 페이지
+👉 [Profile Page](https://szara7678.github.io/portfolio/)  
 
 ---
 
