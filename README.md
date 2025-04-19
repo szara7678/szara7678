@@ -1,12 +1,12 @@
 <h2 align="center">👋 안녕하세요, AI & Robotics 개발자 김인수입니다.</h2>
-<h4 align="center">ROS2 기반 자율주행 및 비전 기술 전문가 | 클라우드 자동화 탐구자</h4>
+<h4 align="center">ROS2 기반 자율주행 및 비전 기술 전문가|클라우드 자동화 탐구자</h4>
 
 ---
 
 ## 🚀 주요 활동
 - **애드인에듀 ROS2 자율주행로봇 44일 부트캠프 4기 (2025.03.31 ~ 2025.06.02)**
+  - https://github.com/addinedu-roscamp-4th/roscamp-repo-2
   - ROS2 기반 통신 및 비전 기술 담당
-
 ---
 
 ## 🧩 주요 프로젝트
