@@ -14,6 +14,18 @@
 ---
 
 ## 🧩 주요 프로젝트
+
+<details>
+<summary>이치모찌 학습 앱 (모바일)</summary>
+
+- LLM을 활용한 문제 자동 생성, 검토 및 수정 자동화  
+- 오답노트 및 학습 통계 관리 시스템  
+- 레벨별 맞춤형 학습 경로 구현  
+- AWS EC2/S3/RDS 기반 인프라 설계·운영  
+- GitHub Actions CI/CD 자동 배포  
+- [다운로드](https://play.google.com/store/apps/details?id=com.szara7678.ichimozzi)
+
+</details>
 <details>
 <summary>타로 카드 게임 (웹 기반)</summary>
 
@@ -43,18 +55,6 @@
 - 레벨별 난이도 조절 알고리즘  
 - 실시간 점수판 및 학습 통계 제공  
 - [데모 & 코드](https://szara7678.github.io/PlusCardGame/)
-
-</details>
-
-<details>
-<summary>이치모찌 학습 앱 (모바일)</summary>
-
-- LLM을 활용한 문제 자동 생성, 검토 및 수정 자동화  
-- 오답노트 및 학습 통계 관리 시스템  
-- 레벨별 맞춤형 학습 경로 구현  
-- AWS EC2/S3/RDS 기반 인프라 설계·운영  
-- GitHub Actions CI/CD 자동 배포  
-- [다운로드](https://play.google.com/store/apps/details?id=com.szara7678.ichimozzi)
 
 </details>
 
