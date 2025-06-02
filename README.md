@@ -5,11 +5,15 @@
 
 ## 🚀 주요 활동
 - **AddInEdu ROS2 부트캠프 (2025.03~06)**
-  - ROS2 메시지 아키텍처 설계 및 통신 파이프라인 구축  
-  - 실시간 MJPEG/RTSP 스트리밍 및 YOLO·OpenCV 객체 감지  
-  - LLM 기반 배치 분석 파이프라인 개발  
-  - GitHub Actions CI/CD 설계 및 운영  
-  - [프로젝트 저장소](https://github.com/addinedu-roscamp-4th/roscamp-repo-2)
+로봇팔 2대와 '핑키' 모바일 로봇 3대를 이요한 식당 서비스에서 아래와 같은 역할을 수행하여 최우수상을 수여함.
+
+-Web GUI 개발
+-DB 구축 및 관리
+-메인 서버 구축
+-통신체계 관리
+-자율주행 로봇 메시지 아키텍처 설계
+-UDP, WebRTC를 이요한 카메라 영상 실시간 스트리밍
+-객체 감지(YOLOv5, OpenCV)
 
 ---
 
