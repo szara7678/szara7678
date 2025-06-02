@@ -6,6 +6,7 @@
 ## 🚀 주요 활동
 - **AddInEdu ROS2 부트캠프 (2025.03~06)**
 로봇팔 2대와 '핑키' 모바일 로봇 3대를 이요한 식당 서비스에서 아래와 같은 역할을 수행하여 최우수상을 수여함.
+- [깃허브 링크](https://github.com/addinedu-roscamp-4th/roscamp-repo-2)
 
   - Web GUI 개발
   - DB 구축 및 관리
