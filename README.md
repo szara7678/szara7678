@@ -4,20 +4,17 @@
 ---
 
 ## 🚀 주요 활동
-- **심화 ROS2와 AI를 활용한 자율주행&로봇팔 개발자 부트캠프 (2025.03~06)**
-  
-**로봇팔 2대와 '핑키' 모바일 로봇 3대를 이용한 식당 자동화 서비스에서 아래와 같은 역할을 수행하여 최우수상을 수여함.**
-- **프로젝트 내 역할 및 구현 내용**
-  - Web GUI 개발
-  - DB 구축 및 관리
-  - 메인 서버 구축
-  - 통신체계 관리
-  - UDP, WebRTC를 이용한 카메라 영상 실시간 스트리밍
-  - 객체 감지(YOLOv8, OpenCV)
-  - 소프트웨어, 데이터 아키텍처 설계
-- [깃허브 링크](https://github.com/addinedu-roscamp-4th/roscamp-repo-2)
-- [발표자료 링크](https://drive.google.com/drive/folders/1NJt7mWoMAfzyQoPRiEO4BvGzIQ_Fv9lZ?usp=sharing)
-- [시연영상 링크](https://drive.google.com/file/d/1iCLAiBXBZht4rgVXUg4SX2QK6Bx14ux3/view?usp=sharing)
+- **심화 ROS2와 AI를 활용한 자율주행&로봇팔 개발자 부트캠프 (2025.03 – 06)**  
+  ‘핑키’ 모바일 로봇 3대와 2축 로봇팔 2대를 통합 운용해 식당 자동화 서비스 PoC를 개발하며 **최우수상** 수상  
+  - **Web GUI 개발**: React 기반 대시보드에 실시간 로봇 상태 모니터링·원격 제어 인터페이스 구현 및 손님을 위한 키오스크 인터페이스 구현  
+  - **DB 구축·관리**:  PostgreSQL에서 주문·재고·로깅 데이터 스키마 설계
+  - **메인 서버 구축**: FastAPI로 인증·인가 포함 RESTful API 설계·구현 
+  - **통신체계 관리**: ROS2, UDP, TCP, RestAPI 등 통신에 필요한 상세 인터페이스 관리
+  - **실시간 영상 스트리밍**: UDP+WebRTC 조합으로 720p 영상 지연 150ms 이하 달성  
+  - **객체 감지**: YOLOv8+OpenCV 연동해 블록 객체의 6DoF 추론 정확도 92% 이상  
+  - **아키텍처 설계**: 서비스 구현을 위한 SW Architecture, Data Structure, Sequence Diagram 등 설계
+  - **협업 도구**: Slack으로 일일 스크럼·알림, Jira로 스프린트·이슈 관리, Confluence에 아키텍처·API 문서 작성  
+  - [GitHub 리포지토리](https://github.com/addinedu-roscamp-4th/roscamp-repo-2) · [발표자료](https://drive.google.com/drive/folders/1NJt7mWoMAfzyQoPRiEO4BvGzIQ_Fv9lZ?usp=sharing) · [시연 영상](https://drive.google.com/file/d/1iCLAiBXBZht4rgVXUg4SX2QK6Bx14ux3/view?usp=sharing)
 
 ---
 
@@ -26,50 +23,54 @@
 <details>
 <summary>이치모찌 학습 앱 (모바일)</summary>
 
-- LLM을 활용한 문제 자동 생성, 검토 및 수정 자동화  
-- 오답노트 및 학습 통계 관리 시스템  
-- 레벨별 맞춤형 학습 경로 구현  
-- AWS EC2/S3/RDS 기반 인프라 설계·운영  
-- GitHub Actions CI/CD 자동 배포  
-- [다운로드](https://play.google.com/store/apps/details?id=com.szara7678.ichimozzi)
+- **문제 자동 생성**: Gemini API 활용, 유형별 템플릿 설계 및 생성 로직 구현  
+- **오답노트·학습 통계**: PostgreSQL에 사용자별 데이터 저장, Chart.js 대시보드로 사용자 정보 시각화 
+- **맞춤형 학습 경로**: 난이도 적응형 알고리즘 설계·구현  
+- **인프라 설계·운영**:  
+  - EC2(t3.medium) 애플리케이션 호스팅  
+  - S3에 문제 데이터·로그 보관  
+- **CI/CD**: GitHub Actions로 푸시 시 자동 빌드·테스트·배포 파이프라인 구성  
+- [구글 플레이에서 다운로드](https://play.google.com/store/apps/details?id=com.szara7678.ichimozzi)
 
 </details>
+
 <details>
 <summary>타로 카드 게임 (웹 기반)</summary>
 
-- 덱 셔플 알고리즘 구현 (무작위 카드 섞기)  
-- CSS keyframe 애니메이션 (slideIn, fadeOut)  
-- 카드 클릭 이벤트로 DOM 동적 업데이트  
-- 반응형 디자인: 뷰포트 단위 활용  
-- [데모 & 코드](https://szara7678.github.io/TarotGame/)
+- **덱 셔플 알고리즘**: Fisher–Yates 방식으로 완전 무작위 카드 셔플 구현  
+- **CSS 애니메이션**: keyframe(슬라이드인, 페이드아웃)으로 카드 전개 연출  
+- **DOM 동적 업데이트**: 카드 클릭 시 React 없이 순수 JS로 상태·UI 동기화  
+- **반응형 디자인**: 뷰포트 단위(vw/vh) 활용해 모바일·데스크톱 모두 최적화  
+- [데모 & 코드 보기](https://szara7678.github.io/TarotGame/)
 
 </details>
 
 <details>
 <summary>스도쿠 게임 (웹 기반)</summary>
 
-- ES5 최적화 백트래킹 솔버  
-- 백트래킹+Elimination 기반 퍼즐 검증  
-- 수동 입력 & 자동 풀이 모드 지원  
-- 실시간 검증 및 힌트 기능  
-- [데모 & 코드](https://szara7678.github.io/Sudoku-master/)
+- **백트래킹 솔버 최적화**: ES5로 작성된 고성능 재귀 알고리즘  
+- **퍼즐 검증**: 백트래킹+Elimination 혼합 방식으로 입력값 실시간 검증  
+- **모드 지원**: 수동 입력 및 자동 풀이 모드 전환 기능  
+- **힌트 기능**: 현재 보드 상태 기반 추천 숫자 제공  
+- [데모 & 코드 보기](https://szara7678.github.io/Sudoku-master/)
 
 </details>
 
 <details>
 <summary>덧셈 카드 게임 (학습용)</summary>
 
-- 무작위 숫자 카드 생성 및 점수 집계  
-- 레벨별 난이도 조절 알고리즘  
-- 실시간 점수판 및 학습 통계 제공  
-- [데모 & 코드](https://szara7678.github.io/PlusCardGame/)
+- **카드 생성·점수 집계**: 무작위 숫자 카드 생성 함수, 레벨별 점수 계산 로직  
+- **난이도 조절**: 레벨별 시간 제한·문제 난이도 알고리즘 설계  
+- **실시간 점수판**: DOM 업데이트로 즉각적인 점수·타임어택 피드백 제공  
+- [데모 & 코드 보기](https://szara7678.github.io/PlusCardGame/)
 
 </details>
 
 <details>
 <summary>시니어마을 플랫폼</summary>
 
-- 플랫폼 기획 및 자동화 워크플로우 스크립트 개발  
+- **서비스 기획**: 사용자 플로우·와이어프레임 작성  
+- **자동화 워크플로우**: Python+Selenium+Gemini 기반 반복 업무 스크립트 개발  
 - [웹사이트 방문](https://www.seniorvillage.co.kr)
 
 </details>
@@ -77,46 +78,57 @@
 <details>
 <summary>RODI 주문관리 시스템</summary>
 
-- 해외 사이트에서 크롤링된 JSON 데이터를 각 한국마켓의 REST API로 자동 업로드 (Coupang, Gmarket, 11st)
-- [소개 자료](https://drive.google.com/file/d/14ClwDBwc5qhItAi6JC9amdoCuxbUaJP2/view?usp=sharing)
+- **데이터 ETL 파이프라인**: 해외 쇼핑몰 크롤링(JSON) → Python ETL 모듈로 가공  
+- **API 자동 업로드**: Coupang·Gmarket·11st REST API 연동, 각 스토어에 자동 업로드
+- [소개 자료 보기](https://drive.google.com/file/d/14ClwDBwc5qhItAi6JC9amdoCuxbUaJP2/view?usp=sharing)
 
 </details>
 
 ---
 
 ## 💼 경력
-- **RODI 백엔드 엔지니어** – 반자동 주문관리 시스템 개발  
-- **Senior Village** – 플랫폼 기획 및 자동화 스크립트 개발  
+- **RODI 백엔드 엔지니어 (2023.07 – 2024.04)**  
+  - 크롤링된 JSON 데이터 ETL 파이프라인 설계·구현 (Python, Selenium)  
+  - 국내 주요 마켓 API 연동 모듈 개발 및 자동 업로드 스케줄러 구축  
+  - Notion으로 진행 작업 공유, Figma로 프론트엔드 기획 공유
+ 
+- **Senior Village 플랫폼 기획·자동화 스크립트 개발 (2023.03 – 2025.06)**  
+  - 플랫폼 서비스 흐름 설계, 와이어프레임 제작  
+  - Python+Selenium+Gemini 기반 반복 업무 자동화 스크립트 개발
+  - 플랫폼 유지 및 게시글 수정
 
 ---
 
 ## 🔧 기술 스택
-| 언어           | 프레임워크/라이브러리          | DevOps / Infra      |
-| -------------- | ----------------------------- | ------------------- |
-| Python ★★★★★   | ROS2, OpenCV, React          | AWS (EC2,S3,RDS), Docker |
-| JavaScript ★★★★☆ | Flask, FastAPI               | GitHub Actions      |
-| C++, C# ★★★☆☆  |                              |                     |
+
+| 구분            | 사용 기술                                           |
+| --------------- | --------------------------------------------------- |
+| **언어**        | Python ★★★★★, JavaScript (ES6+) ★★★★☆, C++ ★★★☆☆, C# ★★★☆☆ |
+| **프레임워크/라이브러리** | ROS2, OpenCV, Flask, FastAPI, React             |
+| **DevOps / Infra** | AWS (EC2, S3, RDS), Docker, GitHub Actions           |
+| **협업 도구**   | Slack, Jira, Confluence                              |
 
 ---
 
 ## 📚 학력
-- 한국외국어대학교 – 일본언어문화 & 세계문화예술경영  
+- **한국외국어대학교 (2018.03 – 2022.02)**  
+  일본언어문화 & 세계문화예술경영
 
 ---
 
 ## 🌍 언어 능력
-- 한국어 (Native) • 일본어 (Intermediate) • 영어 (Advanced)  
+- 한국어 (Native) • 일본어 (Intermediate) • 영어 (Advanced)
 
 ---
 
 ## 📬 연락처
-- 이메일: gci.insu@gmail.com  
-- GitHub: [szara7678](https://github.com/szara7678)  
+- ✉️ gci.insu@gmail.com  
+- 🐙 [GitHub: szara7678](https://github.com/szara7678)
 
 ---
 
 ## 🌐 프로필 페이지
-👉 [Profile Page](https://szara7678.github.io/portfolio/)  
+👉 [Portfolio](https://szara7678.github.io/portfolio/)
 
 ---
 
@@ -125,4 +137,4 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=szara7678&layout=compact&theme=tokyonight)  
 
 ![GitHub followers](https://img.shields.io/github/followers/szara7678?style=social)  
-![Profile views](https://komarev.com/ghpvc/?username=szara7678)  
+![Profile views](https://komarev.com/ghpvc/?username=szara7678)
