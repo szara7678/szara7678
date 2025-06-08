@@ -7,6 +7,7 @@
 - **AddInEdu ROS2 부트캠프 (2025.03~06)**
 로봇팔 2대와 '핑키' 모바일 로봇 3대를 이용한 식당 서비스에서 아래와 같은 역할을 수행하여 최우수상을 수여함.
 - [깃허브 링크](https://github.com/addinedu-roscamp-4th/roscamp-repo-2)
+- [발표자료 링크](https://drive.google.com/drive/folders/1eM7FVPBz3ZPPiFZplQSFO0GySxM622Xk?usp=sharing)
 
   - Web GUI 개발
   - DB 구축 및 관리
