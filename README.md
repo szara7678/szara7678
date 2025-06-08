@@ -7,14 +7,15 @@
 - **AddInEdu ROS2 부트캠프 (2025.03~06)**
 로봇팔 2대와 '핑키' 모바일 로봇 3대를 이용한 식당 서비스에서 아래와 같은 역할을 수행하여 최우수상을 수여함.
 - [깃허브 링크](https://github.com/addinedu-roscamp-4th/roscamp-repo-2)
-- [발표자료 링크](https://drive.google.com/drive/folders/1eM7FVPBz3ZPPiFZplQSFO0GySxM622Xk?usp=sharing)
+- [발표자료 링크](https://drive.google.com/drive/folders/1NJt7mWoMAfzyQoPRiEO4BvGzIQ_Fv9lZ?usp=sharing)
+- [시연영상 링크](https://drive.google.com/file/d/1iCLAiBXBZht4rgVXUg4SX2QK6Bx14ux3/view?usp=sharing)
 
   - Web GUI 개발
   - DB 구축 및 관리
   - 메인 서버 구축
   - 통신체계 관리
   - 자율주행 로봇 메시지 아키텍처 설계
-  - UDP, WebRTC를 이요한 카메라 영상 실시간 스트리밍
+  - UDP, WebRTC를 이용한 카메라 영상 실시간 스트리밍
   - 객체 감지(YOLOv5, OpenCV)
 
 ---
@@ -75,7 +76,8 @@
 <details>
 <summary>RODI 주문관리 시스템</summary>
 
-- 크롤링된 JSON 데이터를 REST API로 한국 마켓 자동 업로드 (Coupang, Gmarket, 11st)
+- 해외 사이트에서 크롤링된 JSON 데이터를 각 한국마켓의 REST API로 자동 업로드 (Coupang, Gmarket, 11st)
+- [소개 자료](https://drive.google.com/file/d/14ClwDBwc5qhItAi6JC9amdoCuxbUaJP2/view?usp=sharing)
 
 </details>
 
@@ -88,7 +90,7 @@
 ---
 
 ## 🔧 기술 스택
-- **언어:** Python, JavaScript (ES6+), C++  
+- **언어:** Python, JavaScript (ES6+), C++, C#
 - **프레임워크/라이브러리:** ROS2, OpenCV, Flask, FastAPI, React  
 - **DevOps:** AWS (EC2, S3, RDS), Docker, GitHub Actions  
 - **웹 기술:** HTML5, CSS3  
