@@ -6,10 +6,7 @@
 ## 🚀 주요 활동
 - **AddInEdu ROS2 부트캠프 (2025.03~06)**
 로봇팔 2대와 '핑키' 모바일 로봇 3대를 이용한 식당 서비스에서 아래와 같은 역할을 수행하여 최우수상을 수여함.
-- [깃허브 링크](https://github.com/addinedu-roscamp-4th/roscamp-repo-2)
-- [발표자료 링크](https://drive.google.com/drive/folders/1NJt7mWoMAfzyQoPRiEO4BvGzIQ_Fv9lZ?usp=sharing)
-- [시연영상 링크](https://drive.google.com/file/d/1iCLAiBXBZht4rgVXUg4SX2QK6Bx14ux3/view?usp=sharing)
-
+- [프로젝트 내 역할 및 구현 내용]
   - Web GUI 개발
   - DB 구축 및 관리
   - 메인 서버 구축
@@ -17,6 +14,9 @@
   - 자율주행 로봇 메시지 아키텍처 설계
   - UDP, WebRTC를 이용한 카메라 영상 실시간 스트리밍
   - 객체 감지(YOLOv5, OpenCV)
+- [깃허브 링크](https://github.com/addinedu-roscamp-4th/roscamp-repo-2)
+- [발표자료 링크](https://drive.google.com/drive/folders/1NJt7mWoMAfzyQoPRiEO4BvGzIQ_Fv9lZ?usp=sharing)
+- [시연영상 링크](https://drive.google.com/file/d/1iCLAiBXBZht4rgVXUg4SX2QK6Bx14ux3/view?usp=sharing)
 
 ---
 
