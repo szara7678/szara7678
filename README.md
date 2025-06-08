@@ -1,5 +1,5 @@
-<h2 align="center">안녕하세요, AI·로봇 통합 서비스 기획부터 구현까지, 고객 문제 해결에 집중하는 개발자 김인수입니다.</h2>
-<h4 align="center">자라스튜디오와 시니어마을 창업 경험을 통해 서비스 기획, 개발 역량을 쌓았으며,<br>현재는 ROS2 자율주행 로봇과 컴퓨터 비전 분야에 집중하고 있습니다.</h4>
+<h2 align="center">👋 안녕하세요, AI·로봇 통합 서비스 개발자 김인수입니다.</h2>
+<p align="center">서비스 기획부터 구현·운영까지, 고객 문제 해결에 집중합니다.</p>
 
 ---
 
@@ -91,10 +91,11 @@
 ---
 
 ## 🔧 기술 스택
-- **언어:** Python, JavaScript (ES6+), C++, C#
-- **프레임워크/라이브러리:** ROS2, OpenCV, Flask, FastAPI, React  
-- **DevOps:** AWS (EC2, S3, RDS), Docker, GitHub Actions  
-- **웹 기술:** HTML5, CSS3  
+| 언어           | 프레임워크/라이브러리          | DevOps / Infra      |
+| -------------- | ----------------------------- | ------------------- |
+| Python ★★★★★   | ROS2, OpenCV, React          | AWS (EC2,S3,RDS), Docker |
+| JavaScript ★★★★☆ | Flask, FastAPI               | GitHub Actions      |
+| C++, C# ★★★☆☆  |                              |                     |
 
 ---
 
