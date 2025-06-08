@@ -12,9 +12,9 @@
   - DB 구축 및 관리
   - 메인 서버 구축
   - 통신체계 관리
-  - 자율주행 로봇 메시지 아키텍처 설계
   - UDP, WebRTC를 이용한 카메라 영상 실시간 스트리밍
-  - 객체 감지(YOLOv5, OpenCV)
+  - 객체 감지(YOLOv8, OpenCV)
+  - 소프트웨어, 데이터 아키텍처 설계
 - [깃허브 링크](https://github.com/addinedu-roscamp-4th/roscamp-repo-2)
 - [발표자료 링크](https://drive.google.com/drive/folders/1NJt7mWoMAfzyQoPRiEO4BvGzIQ_Fv9lZ?usp=sharing)
 - [시연영상 링크](https://drive.google.com/file/d/1iCLAiBXBZht4rgVXUg4SX2QK6Bx14ux3/view?usp=sharing)
