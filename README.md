@@ -128,7 +128,7 @@
 ---
 
 ## 🌐 프로필 페이지
-👉 <a href="https://szara7678.github.io/portfolio/" target="_blank">Portfolio</a>
+👉 <a href="https://szara7678.github.io/portfolio_page/" target="_blank">Portfolio</a>
 
 ---
 
