@@ -64,8 +64,6 @@
 </details>
 
 <details>
-
-<details>
 <summary>스도쿠 게임 (개인 프로젝트)</summary>
 
 - **백트래킹 솔버 최적화**: ES5로 작성된 고성능 재귀 알고리즘  
