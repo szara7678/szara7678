@@ -21,6 +21,36 @@
 ## 🧩 주요 프로젝트
 
 <details>
+<summary>국립평창청소년수련원 로봇 운영·콘텐츠 통합 시스템 (실무, 프론트엔드·백엔드)</summary>
+
+- **관제 프론트엔드 개발**: Next.js 14 기반 로봇 관리 시스템에서 실시간 알림 카드, 로봇 위치 보간 애니메이션, 순찰 이미지 모달, 지도 편집 UI, 코드 관리 업로드/초기화 기능 구현  
+- **콘텐츠 서비스 개발**: 안내로봇용 웹 서비스에서 통계 API, 본관/생활관 이원화 대기화면, 콘텐츠 업로드, TTS·이메일 연동 기능 개발  
+- **운영형 백엔드 연동**: Express+TypeScript 웹서버의 ZIP 코드 업로드 API, 버전 관리, S3 저장 구조를 연계해 현장 배포 워크플로우 개선  
+- **실시간 운영 구조 이해**: Kafka 기반 작업 상태 수집, WebSocket 모니터링 전송, 로봇·IoT·서버가 혼재한 현장 네트워크 구조를 바탕으로 기능 개선 및 운영 대응  
+
+</details>
+
+<details>
+<summary>ARC Fleet 다중 로봇 통합 관제 플랫폼 (실무, 프론트엔드·백엔드·프로토콜)</summary>
+
+- **관제 플랫폼 개발**: React+TypeScript 기반 UI에서 프로젝트/로봇/그룹/모델 관리, 실시간 관제, 수동 제어, 지도 편집 흐름 고도화  
+- **백엔드 설계·개선**: NestJS+MongoDB+Socket.IO+MQTT 기반 구조에서 프로젝트·맵·명령·관리 데이터 흐름 정리 및 운영 기능 개선  
+- **프로토콜 문서화**: REQUEST / AGREE / INFORM / FAILURE / QUERY / SUBSCRIBE 구조의 에이전트 메시지 명세와 인터페이스 스키마를 정리해 협업 기준 수립  
+- **운영 안정화**: 관리 화면 삭제 가드, stale cache 정합성, 목록 재조회, 관리 UI 정책 정리를 통해 실서비스 UX와 유지보수성 개선  
+
+</details>
+
+<details>
+<summary>RobotApp Web RViz/SLAM Fleet MVP (실무, 프론트엔드·백엔드)</summary>
+
+- **ROS2 직접 연동 백엔드**: FastAPI+WebSocket+rclpy 기반으로 rosbridge 없이 DDS 토픽을 직접 구독·발행하는 게이트웨이 개발  
+- **웹 관제 UI 개발**: React+TypeScript+Three.js+Konva 기반으로 3D 뷰어, 2D 맵 편집기, 조이스틱 원격 제어, 파일 관리 UI 구현  
+- **SLAM/Nav2 운영 기능**: tmux 기반 서비스 실행·헬스체크, 파라미터 업로드, 맵 저장/편집, E-STOP 워크플로우 등 운영 도구 개발  
+- **데이터 파이프라인 정리**: 맵·코스트맵·배터리·TF 데이터를 WebSocket으로 브로드캐스트하고, 상태 관리와 렌더링 흐름을 문서화  
+
+</details>
+
+<details>
 <summary>무한 텍스트 탑 등반 RPG (개인 프로젝트)</summary>
 
 - **텍스트 기반 RPG 게임**: 간단한 텍스트 기반 RPG 게임으로 진입장벽 및 리소스 최소화  
@@ -88,8 +118,10 @@
 
 ## 💼 경력
 - **Arica 로봇 엔지니어 (2025.08 – 재직중)**  
-  - 국립평창수련원 대융합실증 프로젝트 이송로봇(뉴비) 주행 알고리즘 및 파인튜닝, 통합관제 시스템 프론트엔드 개발
-  - Arica 로봇 통합 관제 솔루션 아크플릿(Arc-Fleet) 개발
+  - 국립평창수련원 PNYC 실증 프로젝트에서 안내·이송·순찰 로봇 운영 시스템의 프론트엔드/백엔드 기능 개발 및 고도화  
+  - Arc-Fleet 다중 로봇 통합 관제 플랫폼의 React/NestJS 기반 프론트엔드·백엔드 개발, 지도 편집·프로젝트 관리·운영 UX 개선  
+  - 에이전트 메시지 프로토콜, 로봇 상태 인터페이스, 실시간 데이터 흐름(Socket.IO, MQTT, WebSocket) 문서화 및 구조 정리  
+  - RobotApp(Web RViz/SLAM Fleet MVP)에서 FastAPI+React 기반 관제, 맵 편집, SLAM/Nav2 운영 도구 개발
 
 - **RODI 백엔드 엔지니어 (2023.07 – 2024.04)**  
   - 크롤링된 JSON 데이터 ETL 파이프라인 설계·구현 (Python, Selenium)  
@@ -107,15 +139,15 @@
 
 | 구분                   | 사용 기술                                                          |
 | ---------------------- | ------------------------------------------------------------------ |
-| **언어**               | Python ★★★★★, JavaScript (ES6+) ★★★★☆, C# ★★★☆☆, C++ ★★★☆☆        |
-| **프레임워크/라이브러리** | ROS2, OpenCV, React, FastAPI, Flask                                |
-| **DevOps / Infra**     | AWS (EC2, S3, RDS), Docker, GitHub Actions                         |
-| **협업 도구**          | Slack, Jira, Confluence                                            |
+| **언어**               | Python ★★★★★, TypeScript ★★★★☆, JavaScript (ES6+) ★★★★☆, Java ★★★☆☆, C++ ★★★☆☆ |
+| **프레임워크/라이브러리** | ROS2, React, Next.js, NestJS, FastAPI, Express, Three.js, Konva, Zustand, OpenCV |
+| **DevOps / Infra**     | Docker, Docker Compose, MongoDB, PostgreSQL, AWS (EC2, S3, RDS), MQTT, Socket.IO, Kafka, GitHub Actions |
+| **협업 도구**          | Slack, Jira, Confluence, Notion, Figma                             |
 
 ---
 
 ## 📚 학력
-- **한국외국어대학교 (2016.03 – 2025.09)**  
+- **한국외국어대학교 (2016.03 – 수료(졸업유예))**  
   일본언어문화 & 세계문화예술경영
 
 ---
