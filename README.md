@@ -1,5 +1,5 @@
 <h1 align="center">김인수 | Insu Kim</h1>
-<p align="center">로봇 운영 플랫폼을 제품처럼 만드는 풀스택 개발자</p>
+<p align="center">로봇 운영 시스템을 제품 관점으로 개선하는 풀스택 개발자</p>
 <p align="center">React · Next.js · TypeScript · NestJS · Express · FastAPI · ROS2 · Kafka · WebSocket · MongoDB · PostgreSQL</p>
 
 ---
@@ -7,16 +7,16 @@
 ## About
 
 아리카에서 다중 로봇 관제, 맵 편집, 운영형 웹 서비스를 개발하고 있습니다.  
-회의 메모와 현장 이슈를 실제 제품 기능, 화면 UX, 백엔드 흐름, 운영 문서로 연결하는 일을 잘합니다.
+현장 이슈와 회의 메모를 기능 정책, 화면 UX, 데이터 흐름, 운영 문서로 정리해 실제 운영자가 쓰는 제품으로 연결하는 역할을 맡고 있습니다.
 
 ## Current Work
 
 - **국립평창청소년수련원 로봇 운영·콘텐츠 통합 시스템**
   - Next.js 14 기반 관제 화면, 통계 API, 콘텐츠 업로드, TTS·이메일 연동 기능 개발
-  - 이중화 서버 이슈와 운영 절차를 문서화해 현장 대응력 개선
+  - 이중화 서버 이슈와 운영 절차를 문서화해 현장 대응 기반 정리
 - **ARC Fleet 다중 로봇 통합 관제 플랫폼**
-  - React + TypeScript + NestJS 기반 운영 UX 개선
-  - 맵 편집, 배포 상태, 삭제 가드, 미저장 이탈 방지 등 실수 방지 흐름 고도화
+  - React + TypeScript + NestJS 기반 관제 UX 개선
+  - 맵 편집, 배포 상태, 삭제 가드, 미저장 이탈 방지 등 운영 안정성을 높이는 흐름 고도화
 - **RobotApp Web RViz / SLAM 운영 도구**
   - FastAPI + WebSocket + rclpy 기반 ROS2 직접 연동 게이트웨이 개발
   - React + Three.js + Konva 기반 3D/2D 운영 UI 구현
@@ -39,9 +39,9 @@
 
 ## Strengths
 
-- 운영 환경을 고려한 **실시간 웹 서비스** 설계
-- 기획, UX, 프론트엔드, 백엔드, 문서화를 잇는 **제품 중심 개발**
-- 로봇·IoT·서버가 섞인 시스템을 이해 가능한 구조로 정리하는 **문제 해결력**
+- 실시간 상태, 이벤트, 제어가 섞인 운영 시스템을 프론트엔드와 백엔드 양쪽에서 설계하고 구현합니다.
+- 요구사항을 기능 추가로 끝내지 않고 운영 정책, UX, 문서까지 함께 정리합니다.
+- 복잡한 시스템을 팀이 유지보수할 수 있는 구조와 언어로 정리합니다.
 
 ## Links
 
@@ -51,10 +51,9 @@
 
 ---
 
-## GitHub Activity
+## GitHub Snapshot
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=szara7678&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=szara7678&layout=compact&theme=tokyonight)
-
-![GitHub followers](https://img.shields.io/github/followers/szara7678?style=social)  
-![Profile views](https://komarev.com/ghpvc/?username=szara7678)
+![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fszara7678&query=%24.public_repos&label=public%20repos&style=for-the-badge&logo=github)
+![Followers](https://img.shields.io/github/followers/szara7678?style=for-the-badge)
+![Following](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fszara7678&query=%24.following&label=following&style=for-the-badge&logo=github)
+![Profile Views](https://komarev.com/ghpvc/?username=szara7678&style=for-the-badge)
