@@ -6,6 +6,9 @@
   <a href="https://knowledge.openakashic.com/notes/portfolio-hub">
     <img src="https://img.shields.io/badge/📘_Portfolio_Hub-knowledge.openakashic.com-1f6feb?style=for-the-badge" alt="Portfolio Hub" />
   </a>
+  <a href="https://github.com/szara7678/OpenAkashic">
+    <img src="https://img.shields.io/badge/🌌_OpenAkashic-GitHub-0f766e?style=for-the-badge&logo=github&logoColor=white" alt="OpenAkashic" />
+  </a>
   <a href="mailto:gci.insu@gmail.com">
     <img src="https://img.shields.io/badge/Email-gci.insu%40gmail.com-24292e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
@@ -15,7 +18,7 @@
 
 ## 🧭 채용 담당자를 위한 빠른 경로
 
-저는 **자체 운영 중인 지식 네트워크(OpenAkashic)** 위에 포지션별로 정리된 이력서와 프로젝트 상세 문서를 공개해 두었습니다. 지원 포지션에 가장 가까운 이력서부터 확인해 주세요.
+저는 **자체 운영 중인 지식 네트워크(OpenAkashic)** 위에 포지션별로 정리된 이력서와 프로젝트 상세 문서를 공개해 두었습니다.
 
 | 포지션 | 이력서 | 요약 |
 | --- | --- | --- |
@@ -33,6 +36,8 @@
 아리카(ARICA)에서 다중 로봇 관제, 맵 편집, 운영형 웹 서비스를 개발하고 있습니다.
 복잡한 현장 요구사항을 **화면 UX · API · 데이터 흐름 · 로봇 인터페이스 · 배포 · 운영 문서**까지 하나의 제품 흐름으로 엮어, 실제 운영자가 바로 사용할 수 있는 수준까지 완성도를 끌어올리는 역할을 맡고 있습니다.
 
+---
+
 ## Current Work · ARICA
 
 - **[ARC Fleet — 다중 로봇 통합 관제 플랫폼](https://knowledge.openakashic.com/notes/project-arc-fleet)**
@@ -48,12 +53,19 @@
 - **[RobotApp Web — 브라우저 기반 ROS2 운영 도구](https://knowledge.openakashic.com/notes/project-robotapp-web)**
   FastAPI + WebSocket + rclpy 기반 ROS2 게이트웨이로 rosbridge 없이 3D 뷰어, 2D 맵 편집기, 원격 제어, 파라미터 업로드, E-STOP 흐름을 웹에서 처리.
 
+---
+
 ## Selected Projects
 
-- **[OpenAkashic](https://knowledge.openakashic.com/notes/project-openakashic)** — 가시성 제어 지식 네트워크 (이 README가 가리키는 사이트). FastAPI + PostgreSQL FTS + FastMCP + Caddy + Cloudflare Tunnel로 자체 서버에서 운영 중. AWS→자체 서버 마이그레이션 완료.
+- **[🌌 OpenAkashic](https://github.com/szara7678/OpenAkashic)** [![GitHub stars](https://img.shields.io/github/stars/szara7678/OpenAkashic?style=flat&labelColor=0f766e&color=0f766e)](https://github.com/szara7678/OpenAkashic)
+  가시성 제어 지식 네트워크 — AI 에이전트가 MCP로 읽고 쓰는 개인 + 공용 지식 저장소. FastAPI + PostgreSQL FTS + FastMCP. 오픈소스로 공개. 현재 이 포트폴리오 허브가 이 위에서 서빙 중.
+  → [knowledge.openakashic.com](https://knowledge.openakashic.com/closed/graph) · [GitHub 리포](https://github.com/szara7678/OpenAkashic) · [MCP 바로 연결](https://github.com/szara7678/OpenAkashic/tree/main/mcp)
+
 - **[RoboDine · IchiMozzi · RODI · 시니어마을](https://knowledge.openakashic.com/notes/project-side-projects)** — 부트캠프 최우수상 RoboDine, JLPT AI 학습 앱 IchiMozzi(Google Play 출시), 다중 쇼핑몰 백엔드 RODI, 시니어 커뮤니티 플랫폼.
 
 → 각 프로젝트의 책임 범위·의사결정 상세는 [포트폴리오 허브](https://knowledge.openakashic.com/notes/portfolio-hub)에서 확인하실 수 있습니다.
+
+---
 
 ## Strengths
 
@@ -61,6 +73,9 @@
 - **운영 감각** — 운영자가 실수하기 쉬운 지점을 가드레일(삭제 확인·미저장 이탈 방지·배포 상태 표시)로 바꾸는 것을 기본 설계에 포함합니다.
 - **현장 대응** — 네트워크 이중화·외부 장비·로봇 주행 이슈가 동시에 터지는 현장에서 기능 수정과 인수인계 문서를 함께 남깁니다.
 - **자가 운영 인프라 경험** — AWS에서 자체 서버로 마이그레이션해 Docker Compose + Caddy + Cloudflare Tunnel 스택을 직접 운영 중입니다.
+- **AI 에이전트 인프라** — MCP 서버를 직접 구현해 Claude Code 같은 LLM 에이전트가 도메인 지식을 직접 읽고 쓰는 워크플로우를 운영 중입니다.
+
+---
 
 ## Tech Stack
 
@@ -70,10 +85,14 @@
 **Realtime / Messaging** WebSocket · Socket.IO · Kafka · MQTT · rclpy (ROS2 DDS)
 **Robotics** ROS2 · Navigation2 · costmap/keepout tuning · docking & elevator actions
 **Infra** Docker Compose · Caddy · Cloudflare Tunnel · AWS (S3/EC2/RDS) · nginx · GitHub Actions
+**AI / Agents** FastMCP · Model Context Protocol (MCP) · Claude Code integration
+
+---
 
 ## Links
 
 - 📘 **Portfolio Hub** — <https://knowledge.openakashic.com/notes/portfolio-hub>
+- 🌌 **OpenAkashic** (오픈소스) — <https://github.com/szara7678/OpenAkashic>
 - 🌐 Personal Portfolio Site — <https://szara7678.github.io/portfolio_page/>
 - 🐙 GitHub — [@szara7678](https://github.com/szara7678)
 - ✉️ Email — <gci.insu@gmail.com>
